@@ -20,7 +20,7 @@ DB_PASSWORD=password
 SECRET_KEY=secret
 DEBUG=true
 ```
-Обратите внимание на параметр `DATABASE_URL`. В нем необходимо еще раз перечислить в виде url, полученные вами настройки, используя следующий вид: `postgres://DB_USER:DB_PASSWORD@DB_HOST:DB_PORT/DB_NAME`.
+Обратите внимание на параметр `DATABASE_URL`. В нем необходимо еще раз перечислить в виде url, полученные вами настройки, используя следующий вид записи: `postgres://DB_USER:DB_PASSWORD@DB_HOST:DB_PORT/DB_NAME`.
 
 Настройка `DEBUG` включает (значение `true`) или выключает (`false`) отладочный режим.
 
