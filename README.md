@@ -12,15 +12,10 @@
 
 ```
 DATABASE_URL=postgres://user:password@example.devman.org:8080/example
-DB_HOST=example.devman.org
-DB_PORT=8080
-DB_NAME=example
-DB_USER=user
-DB_PASSWORD=password
 SECRET_KEY=secret
 DEBUG=true
 ```
-Обратите внимание на параметр `DATABASE_URL`. В нем необходимо еще раз перечислить в виде url, полученные вами настройки, используя следующий вид: `postgres://DB_USER:DB_PASSWORD@DB_HOST:DB_PORT/DB_NAME`.
+Обратите внимание на параметр `DATABASE_URL`. В нем необходимо перечислить в виде url, полученные вами настройки, используя следующий шаблон: `postgres://DB_USER:DB_PASSWORD@DB_HOST:DB_PORT/DB_NAME`.
 
 Настройка `DEBUG` включает (значение `true`) или выключает (`false`) отладочный режим.
 
